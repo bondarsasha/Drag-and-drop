@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.note {
+  height: 100%;
+  width: 100%;
+}
+.note-item {
+  text-align: center;
+  min-height: 50px;
+  width: 150px;
+  cursor: pointer;
+  padding: 15px;
+  font: 22px/26px 'Times New Roman';
+  box-shadow: 6px 4px 6px .4px;
+}
+.notes-form {
+  top: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 50%;
+  margin: auto;
+}
+.notes-input {
+  width: 80%;
+  height: 30px;
+  font-size: 20px;
+}
+.note-submit {
+  padding: 10px 15px;
+  font-size: 15px;
+  border: none;
+  border-radius: 2px;
+  text-transform: uppercase;
+  color: #bbb;
+  background-color: #151515;
+  cursor: pointer;
+}
